@@ -12,7 +12,7 @@ interface NavbarProps {
 
 const Navbar: FC<NavbarProps> = ({}) => {
   return (
-    <div className="mt-6 font-semibold">
+    <div className="mt-6  px-4 md:px-10 lg:px-24">
       <div>
         <nav className="flex justify-between ">
           {/* Logo */}
@@ -29,7 +29,14 @@ const Navbar: FC<NavbarProps> = ({}) => {
 
           <div className="flex gap-2 lg:gap-6 justify-center items-center ml-2 md:ml-3 lg:ml-5">
             <ProductMenu />
-            <Link href={""}>Demo</Link>
+            <Link
+              href={""}
+              className={buttonVariants({
+                variant: "link",
+              })}
+            >
+              Demo
+            </Link>
             <Link
               href={""}
               className={buttonVariants({

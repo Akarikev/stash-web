@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="mt-14 ">
+    <div className="mt-14 px-4 md:px-10 lg:px-24">
       <header>
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-black text-4xl md:text-6xl lg:text-7xl font-extrabold text-center tracking-tight ">
@@ -48,10 +48,12 @@ function Header() {
                 />
               </div>
 
-              <h3 className="text-center font-semibold text-black">
+              <h3 className="text-center font-semibold text-black text-base tracking-normal   align-middle lg:w-[922px] lg:leading-normal lg:text-xl lg:h-[117px] mt-4 mb-4">
                 Taking your business to scale requires it to accept payments
-                from all methods. Stash drives your expansion – fast, safe, and
-                cheap.
+                <br />
+                from all methods. Stash drives your expansion –
+                <br />
+                fast, safe, and cheap.
               </h3>
             </div>
           </div>
