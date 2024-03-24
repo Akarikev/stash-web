@@ -8,10 +8,10 @@ function Main() {
         <div className="flex lg:gap-x-[100px]">
           <div className="flex flex-col justify-center lg:px-6 px-1">
             {/* Text */}
-            <h1 className="text-[#C4EB47] text-3xl font-bold lg:text-7xl  tracking-tighter">
+            <h1 className="text-[#C4EB47] text-3xl pl-2 font-bold lg:text-7xl  tracking-tighter">
               Swipe, Tap , Dip
             </h1>
-            <p className="text-[#F3F3F3] text-xl tracking-tightest lg:tracking-normal lg:text-3xl mt-3">
+            <p className="text-[#F3F3F3] text-xl pl-2  tracking-tightest lg:tracking-normal lg:text-3xl mt-3">
               Accept credit and debit cards, gift cards, and contactless
               payments from anywhere.
             </p>

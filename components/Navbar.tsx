@@ -30,7 +30,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
           <div className="flex  lg:gap-6 justify-center items-center md:ml-3 lg:ml-5">
             <ProductMenu />
             <Link
-              href={""}
+              href={"#demo"}
               className={buttonVariants({
                 variant: "link",
               })}

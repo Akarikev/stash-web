@@ -29,7 +29,7 @@ function StashTerminal() {
         </div>
 
         {/* Cal embed */}
-        <div className="mt-6">
+        <div className="mt-6" id="demo">
           <h1 className="lg:text-6xl mt-3 text-black font-extrabold text-center text-2xl tracking-tight">
             Schedule a Demo
           </h1>
