@@ -27,7 +27,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
 
           {/* Links */}
 
-          <div className="flex gap-2 lg:gap-6 justify-center items-center ml-2 md:ml-3 lg:ml-5">
+          <div className="flex  lg:gap-6 justify-center items-center md:ml-3 lg:ml-5">
             <ProductMenu />
             <Link
               href={""}
@@ -41,7 +41,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
               href={""}
               className={buttonVariants({
                 variant: "default",
-                className: "ml-3",
+                className: "ml-3 bg-black",
               })}
             >
               Get Started
