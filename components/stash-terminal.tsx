@@ -39,7 +39,7 @@ function StashTerminal() {
               calLink="rick/get-rick-rolled"
               className="w-[380px] lg:w-full "
             ></Cal> */}
-            [cal edmbed heres]
+            [cal edmbed goes here]
           </div>
         </div>
       </div>

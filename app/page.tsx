@@ -1,3 +1,5 @@
+import Footer from "@/components/footer";
+import GetStarted from "@/components/get-started";
 import Header from "@/components/header";
 import HowToStash from "@/components/howtostash";
 import Navbar from "@/components/Navbar";
@@ -13,6 +15,8 @@ export default function Home() {
         <Main />
         <HowToStash />
         <StashTerminal />
+        <GetStarted />
+        <Footer />
       </div>
     </main>
   );

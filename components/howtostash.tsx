@@ -20,7 +20,7 @@ function HowToStash() {
         </p>
       </div>
       {/* Image */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-8">
         <Image
           src={"/howtostash.png"}
           alt="how to stash"
